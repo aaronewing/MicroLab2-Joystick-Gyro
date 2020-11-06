@@ -48,10 +48,10 @@ void loop() {
     delay(100);
   }
   if (Serial.available() > 0) {
-    buzz = Serial.read();
+    buzz = Serial.read(); //reading input from snake game code
 
-    if (buzz == '1') {
-      tone(buzzer, 2000);
+    if (buzz == '1') { //when an apple is touched the arduino should read this code
+      tone(buzzer, 2000); //buzzer tone
       delay(100);
       noTone(buzzer);
     }
