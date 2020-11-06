@@ -1,9 +1,10 @@
 # Simple Snake Game in Python 3 for Beginners
 # By @TokyoEdTech
 # modified by Yan Luo
-#
-# you need to install a few python3 packages
-#   pip3 install pyserial
+
+
+# EECE.4520 - Microprocessors II
+# Code edited by Sam St.Pierre, Aaron Ewing, Chandara Pheng
 
 import turtle
 import time
