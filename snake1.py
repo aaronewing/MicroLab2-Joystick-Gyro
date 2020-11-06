@@ -10,11 +10,13 @@ import turtle
 import time
 import random
 import serial
-# TODO uncomment the following line to use pyserial package
-#import serial
+
+
 
 # Note the serial port dev file name
 # need to change based on the particular host machine
+
+#changed for Windows Host PC (COM number will vary) 
 
 serialDevFile = 'COM3'
 ser=serial.Serial(serialDevFile, 9600, timeout=0)
